@@ -1,86 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            text-align: center;
-        }
-        .container {
-            margin-top: 100px;
-        }
-        h1 {
-            font-size: 36px;
-            color: #333;
-        }
-        p {
-            font-size: 18px;
-            color: #666;
-        }
-        .social-icons {
-            list-style: none;
-            padding: 0;
-        }
-        .social-icons li {
-            display: inline-block;
-            margin: 0 10px;
-        }
-        .social-icons li a {
-            display: inline-block;
-            width: 50px; /* Adjust as needed */
-            height: 50px; /* Adjust as needed */
-            background-color: #ccc; /* Placeholder color */
-            border-radius: 50%; /* Make it round */
-            line-height: 50px; /* Center content vertically */
-            text-align: center;
-            color: #fff; /* Text color */
-            font-size: 24px; /* Text size */
-            text-decoration: none;
-        }
-    </style>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Navigation Bar with Search Box</title>
-        <link rel="stylesheet" href="style.css" />
-        <!-- Unicons CSS -->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-       <script src="script.js" defer></script>
+    <title>Your Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
+
 <body>
-    <nav class="nav">
-        <i class="uil uil-bars navOpenBtn"></i>
-        <a href="#" class="logo">NexInnovation</a>
-        <ul class="nav-links">
-          <i class="uil uil-times navCloseBtn"></i>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-        <i class="uil uil-search search-icon" id="searchIcon"></i>
-        <div class="search-box">
-          <i class="uil uil-search search-icon"></i>
-          <input type="text" placeholder="Search here..." />
-        </div>
-      </nav>
     <div class="container">
-        <h1>Coming Soon</h1>
-        <p>We're working on something awesome. Stay tuned!</p>
-        <p>Follow us on social media for updates:</p>
-        <!-- Add your social media links here -->
-        <ul class="social-icons">
-            <li><a href="https://www.facebook.com/profile.php?id=61557319915725&mibextid=ZbWKwLs" title="Facebook">F</a></li>
-            <li><a href="#" title="Twitter">T</a></li>
-            <li><a href="https://www.instagram.com/_nexinnovation_/" title="Instagram">I</a></li>
-        </ul>
+        <img class="logo" src="src/logo.jpg" alt="Your Logo">
     </div>
+
+    <div class="info">
+        <div class="main_name">
+            <h1>NexInnovation</h1>
+        </div>
+        <div class="info_inside">
+            <p>Your Project Partner</p>
+        </div>
+    </div>
+
+   
+    <footer id="myFooter" class="hide-footer">
+        <div class="footer-line"></div>
+        <div class="footer-content">
+            <div class="footer-left">
+                <p class="name">Parth Tank</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:support@nexinnovation.info">support@nexinnovation.info</a></p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+917048822616">+91 70488 22616</a></p>
+                <p class="address">428429, Green Aristo Plaza,<br> Canal Road, Jahangirpura,<br> Surat 395005</p>
+            </div>
+        </div>
+        <div class="social-media">
+            <!-- Social media buttons with target="_blank" attribute -->
+            <a href="https://www.facebook.com/profile.php?id=61557319915725&amp;mibextid=ZbWKwLs" target="_blank"><img src="src/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/_nexinnovation_/" target="_blank"><img src="src/instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+
+
+
+    
+    <script src="script.js" defer></script>
 </body>
+
 </html>
