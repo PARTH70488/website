@@ -20,7 +20,8 @@ body {
 
 .info {
     position: absolute;
-    top: 100px;
+    top: 0
+    ;
     left: 55%;
     transform: translateX(-50%);
 }
@@ -56,7 +57,7 @@ body {
         background-color: white;
         top: 20px;
         right: 20px;
-        transform: translate(-55%, -30%) scale(0.4);
+        transform: translate(-50%, -30%) scale(0.4);
         border-radius: 50px;
     }
 }
@@ -68,7 +69,7 @@ body {
     }
     100% {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateY(20%);
     }
 }
 
